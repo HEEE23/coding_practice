@@ -1,5 +1,5 @@
 # [백준 : 1822번] 차집합
-# 이진탐색
+# 이진 탐색
 def binary_search(arr, target, start, end):
     while start<=end:
         mid = (start + end) // 2
@@ -12,10 +12,10 @@ def binary_search(arr, target, start, end):
 
     return None
 
-# 집합 A, B의 원소의 개수
+# 집합 A, B의 원소 개수
 a, b = map(int, input().split())
-arr_a = list(map(int, input().split())) # 집합 A의 원소
-arr_b = list(map(int, input().split())) # 집합 B의 원소
+arr_a = list(map(int, input().split())) # 집합 A 원소
+arr_b = list(map(int, input().split())) # 집합 B 원소
 
 arr_b.sort()
 
