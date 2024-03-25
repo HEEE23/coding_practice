@@ -1,4 +1,5 @@
 # [백준 : 1697번] 숨바꼭질
+# bfs
 from collections import deque
 n, k = map(int, input().split())
 
