@@ -21,7 +21,7 @@ def bfs():
             # U, G가 0이면 무시
             if nextS == popV:
                 continue
-            # 엘리베이터가 이동할 수 있고 아직 방문하지 않았다면 버튼의 수 +1
+            # 엘리베이터가 이동할 수 있고 아직 방문하지 않았다면 버튼의 수 + 1
             if 1 <= nextS <= F and not visited[nextS]:
                 visited[nextS] = visited[popV] + 1
                 queue.append(nextS)
