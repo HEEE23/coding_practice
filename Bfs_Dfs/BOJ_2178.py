@@ -34,7 +34,7 @@ def bfs(x, y):
             if graph[nx][ny] == 1:
                 graph[nx][ny] = graph[x][y] + 1
                 queue.append((nx, ny))
-    # (n, m) 위치일 때 최소의 칸 수
+    # (n, m) 위치일 때 최소 칸 수
     return graph[n-1][m-1]
 
 print(bfs(0,0))
