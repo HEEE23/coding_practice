@@ -12,7 +12,7 @@ dy = [0,0,-1,1]
 
 high = 0 # 물에 잠기는 높이
 
-# 잠길 수 있는 최대 높이
+# 물에 잠길 수 있는 최대 높이
 for i in range(n):
     for j in range(n):
         if graph[i][j] > high:
