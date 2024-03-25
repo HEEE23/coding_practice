@@ -2,7 +2,7 @@
 # bfs함수 사용
 from collections import deque
 
-n = int(input()) # 컴퓨터의 수
+n = int(input()) # 컴퓨터 수
 m = int(input()) # 네트워크 상에서 직접 연결되어 있는 컴퓨터 쌍의 수
 
 adj_matrix = [[0]*(n+1) for _ in range(n+1)]
