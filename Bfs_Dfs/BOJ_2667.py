@@ -4,6 +4,7 @@ from collections import deque
 
 n = int(input())
 
+# 0 : 집이 없는 곳, 1 : 집이 있는 곳
 graph = []
 for i in range(n):
     graph.append(list(map(int, input())))
@@ -27,10 +28,9 @@ def bfs(x,y):
             # 지도 범위에 벗어나게 되면 무시
             if nx < 0 or nx >= n or ny < 0 or ny >= n:
                 continue
-            # 0은 집이 없는 곳
             if graph[nx][ny] == 0:
                 continue
-            # 1은 집이 있는 곳으로 단지에 속하는 집의 수 계산
+            # 단지에 속하는 집의 수 계산
             if graph[nx][ny] == 1:
                 graph[nx][ny] = 0
                 queue.append((nx,ny))
