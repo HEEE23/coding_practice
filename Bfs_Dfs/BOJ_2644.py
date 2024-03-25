@@ -39,7 +39,7 @@ def dfs(a, count):
 
 dfs(a, 0)
 
-# 촌수를 계산할 수 없을때(= result 값이 비었을 때), -1 출력
+# 촌수를 계산할 수 없을 때(= result 값이 비었을 때), -1 출력
 if len(result) == 0:
     print(-1)
 else:
