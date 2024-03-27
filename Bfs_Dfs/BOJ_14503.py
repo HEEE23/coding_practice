@@ -34,7 +34,7 @@ def bfs(x, y, d):
             temp_d = nd # 회전한 방향으로 업데이트
 
             if 0 <= nx < n and 0 <= ny < m:
-                # 청소되지 않은 빈 칸이 있는 경우,
+                # 청소되지 않은 빈 칸이 있는 경우
                 if graph[nx][ny] == 0:
                     graph[nx][ny] = 2 # 방문; 현재 칸 청소
                     queue.append((nx,ny,nd))

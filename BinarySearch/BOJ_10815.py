@@ -20,7 +20,7 @@ m = int(input())
 # 상근이가 가지고 있는 숫자 카드인지 아닌지를 구해야 할 정수
 card = list(map(int, input().split()))
 
-num.sort()
+num.sort() # 오름차순 정렬
 
 # 각 수가 적힌 숫자 카드를 상근이가 가지고 있으면 1, 아니면 0
 for i in range(m):

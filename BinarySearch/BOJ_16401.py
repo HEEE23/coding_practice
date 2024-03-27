@@ -2,11 +2,11 @@
 # 이진 탐색
 # M : 조카의 수, N : 과자의 수
 m, n = map(int, input().split())
-# 과자의 길이
+# 과자 길이
 snack = list(map(int, input().split()))
 
-start = 1 # 과자의 최소 길이
-end = max(snack) # 주어진 과자의 길이 중 최대값
+start = 1 # 과자 최소 길이
+end = max(snack) # 주어진 과자 길이 중 최대값
 
 result = 0
 while(start <= end):

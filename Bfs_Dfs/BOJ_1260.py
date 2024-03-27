@@ -5,7 +5,6 @@ n, m, v = map(int, input().split())
 
 adj_matrix = [[0]*(n+1) for _ in range(n+1)]
 
-
 for _ in range(m):
     start, end = map(int, input().split())
     adj_matrix[start][end] = 1

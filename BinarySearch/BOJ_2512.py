@@ -8,7 +8,7 @@ start = 1 # 각 지방의 예산요청을 표현하는 정수의 값은 1 이상
 end = max(arr)
 
 result = 0
-while(start<=end):
+while(start <= end):
     total = 0
     mid = (start + end) // 2
     for x in arr:
