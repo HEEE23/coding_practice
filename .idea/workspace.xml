@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6ff7b92-d454-4c2f-bd8b-f43fd59ca469" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DP/BOJ_1149.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoordinateCompression/BOJ_18869.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearch/BOJ_18870.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoordinateCompression/BOJ_18870.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/coding_practice/coding_practice&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\coding_practice\coding_practice\CoordinateCompression" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="BOJ_2193" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="coding_practice" />
