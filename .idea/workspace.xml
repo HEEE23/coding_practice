@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6ff7b92-d454-4c2f-bd8b-f43fd59ca469" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/BOJ_10825.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Greedy/BOJ_2217.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Implementation/BOJ_23814.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\coding_practice\coding_practice\Greedy" />
       <recent name="C:\coding_practice\coding_practice\CoordinateCompression" />
     </key>
   </component>
@@ -81,5 +83,26 @@
       <updated>1709885797258</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Greedy/BOJ_2217.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Greedy/BOJ_2217.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Implementation/BOJ_23814.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
